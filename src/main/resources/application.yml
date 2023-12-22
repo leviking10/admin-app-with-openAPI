@@ -1,3 +1,7 @@
+springdoc:
+  api-docs:
+    path: /api-docs
+
 server:
   port: 8081
 
@@ -5,7 +9,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/adminapp-db?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
-    password: root
+    password:
     driverClassName: com.mysql.cj.jdbc.Driver
   application:
     name: spring-admin

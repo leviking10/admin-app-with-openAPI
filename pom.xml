@@ -12,7 +12,7 @@
 	<artifactId>admin-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>admin-app</name>
-	<description>Administration d&apos;une application de gestion de produits</description>
+	<description>Administration application de gestion de produits</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
@@ -38,6 +38,12 @@
 					<artifactId>spring-boot-starter-logging</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<!-- Swagger/OpenAPI pour la documentation d'API -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.2.0</version>
 		</dependency>
 		<!--  pour les logs et Aspect programming   -->
 		<!--  Pour les mappers  -->
